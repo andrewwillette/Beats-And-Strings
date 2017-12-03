@@ -1,0 +1,1019 @@
+<patch-1.0 appVersion="1.0.12">
+   <obj type="midi/in/keyb note" uuid="ac0cd98e6c0373b7be73d25900342a62ebcf5f" name="keyb_1" x="0" y="0">
+      <params/>
+      <attribs>
+         <spinner attributeName="note" value="48"/>
+      </attribs>
+   </obj>
+   <comment type="patch/comment" x="98" y="0" text="Pad 1"/>
+   <obj type="ctrl/i" uuid="a3786816db6ea5bc6ac4193a5cccdb2c83b83496" name="i_9" x="168" y="0">
+      <params>
+         <int32 name="value" value="1"/>
+      </params>
+      <attribs/>
+   </obj>
+   <obj type="patch/preset" uuid="f7916cc01d45a5b1bbd444216031e0a02cc0b94c" name="preset_1" x="224" y="0">
+      <params/>
+      <attribs/>
+   </obj>
+   <obj type="drj/seq/tap_tempo" uuid="218abeeb612323af53436541811139814b3a4793" name="tap_tempo_1" x="322" y="0">
+      <params>
+         <int32 name="clockmul" value="1"/>
+         <int32 name="clockdiv" value="1"/>
+         <bool32.mom name="tap" value="0"/>
+      </params>
+      <attribs/>
+   </obj>
+   <obj type="logic/counter" uuid="7a141ba82230e54e5f5cd12da5dbe5a74ba854a5" name="counter_2" x="420" y="0">
+      <params>
+         <int32 name="maximum" value="32"/>
+      </params>
+      <attribs/>
+   </obj>
+   <obj type="math/-1" uuid="5fd46bab471bb6509ae83de702dea72933683a98" name="-1_1" x="504" y="0">
+      <params/>
+      <attribs/>
+   </obj>
+   <obj type="sel/sel b 32 8t" uuid="989f1cf7caf5b472065772cf2898bdab76ceae1e" name="sel_2" x="560" y="0">
+      <params>
+         <bin32 name="p1" value="286331153">
+            <presets>
+               <preset index="2">
+                  <i i="0"/>
+               </preset>
+               <preset index="5">
+                  <i i="16843009"/>
+               </preset>
+               <preset index="3">
+                  <i i="285806865"/>
+               </preset>
+               <preset index="1">
+                  <i i="286331153"/>
+               </preset>
+            </presets>
+         </bin32>
+         <bin32 name="p2" value="168430090">
+            <presets>
+               <preset index="2">
+                  <i i="0"/>
+               </preset>
+               <preset index="5">
+                  <i i="1650877044"/>
+               </preset>
+               <preset index="3">
+                  <i i="131586"/>
+               </preset>
+               <preset index="1">
+                  <i i="168430090"/>
+               </preset>
+            </presets>
+         </bin32>
+         <bin32 name="p3" value="-2080078716">
+            <presets>
+               <preset index="2">
+                  <i i="0"/>
+               </preset>
+               <preset index="5">
+                  <i i="-2004318072"/>
+               </preset>
+               <preset index="3">
+                  <i i="2129952"/>
+               </preset>
+               <preset index="1">
+                  <i i="-2080078716"/>
+               </preset>
+            </presets>
+         </bin32>
+         <bin32 name="p4" value="1098973312">
+            <presets>
+               <preset index="2">
+                  <i i="0"/>
+               </preset>
+               <preset index="5">
+                  <i i="1096352089"/>
+               </preset>
+               <preset index="3">
+                  <i i="12632256"/>
+               </preset>
+               <preset index="1">
+                  <i i="1098973312"/>
+               </preset>
+            </presets>
+         </bin32>
+         <bin32 name="p5" value="353703189">
+            <presets>
+               <preset index="2">
+                  <i i="0"/>
+               </preset>
+               <preset index="4">
+                  <i i="0"/>
+               </preset>
+               <preset index="3">
+                  <i i="353703189"/>
+               </preset>
+               <preset index="1">
+                  <i i="353703189"/>
+               </preset>
+            </presets>
+         </bin32>
+         <bin32 name="p6" value="0">
+            <presets>
+               <preset index="2">
+                  <i i="0"/>
+               </preset>
+               <preset index="1">
+                  <i i="0"/>
+               </preset>
+               <preset index="4">
+                  <i i="0"/>
+               </preset>
+               <preset index="3">
+                  <i i="16843009"/>
+               </preset>
+            </presets>
+         </bin32>
+         <bin32 name="p7" value="0">
+            <presets>
+               <preset index="2">
+                  <i i="0"/>
+               </preset>
+               <preset index="1">
+                  <i i="0"/>
+               </preset>
+               <preset index="4">
+                  <i i="0"/>
+               </preset>
+               <preset index="3">
+                  <i i="-65536"/>
+               </preset>
+            </presets>
+         </bin32>
+         <bin32 name="p8" value="0">
+            <presets>
+               <preset index="1">
+                  <i i="0"/>
+               </preset>
+               <preset index="5">
+                  <i i="0"/>
+               </preset>
+               <preset index="4">
+                  <i i="0"/>
+               </preset>
+               <preset index="3">
+                  <i i="0"/>
+               </preset>
+               <preset index="2">
+                  <i i="1431655765"/>
+               </preset>
+            </presets>
+         </bin32>
+      </params>
+      <attribs/>
+   </obj>
+   <obj type="ctrl/dial p" uuid="cc5d2846c3d50e425f450c4b9851371b54f4d674" name="Gain" x="952" y="0">
+      <params>
+         <frac32.u.map name="value" value="64.0"/>
+      </params>
+      <attribs/>
+   </obj>
+   <obj type="string/c" uuid="4aa90a90c435a742ddfa152d232883fc5b2f1b3" name="c_1" x="1022" y="0">
+      <params/>
+      <attribs>
+         <table attributeName="str" table="/kick.raw"/>
+      </attribs>
+   </obj>
+   <obj type="wave/play" uuid="2e6265136dbaaf4d885a669520546de2e3306819" name="play_1" x="1176" y="0">
+      <params/>
+      <attribs/>
+   </obj>
+   <obj type="gain/vca" uuid="a9f2dcd18043e2f47364e45cb8814f63c2a37c0d" name="vca_1" x="1288" y="0">
+      <params/>
+      <attribs/>
+   </obj>
+   <obj type="sss/mix/mixsix" uuid="fca775f6-49ec-4d9f-9a4f-e657dad3a76e" name="mixsix_1" x="1344" y="0">
+      <params>
+         <frac32.u.map name="gain1" value="64.0"/>
+         <frac32.u.map name="gain2" value="32.0"/>
+         <frac32.u.map name="gain3" value="32.0"/>
+         <frac32.u.map name="gain4" value="32.0"/>
+         <frac32.u.map name="gain5" value="32.0"/>
+         <frac32.u.map name="gain6" value="32.0"/>
+      </params>
+      <attribs/>
+   </obj>
+   <comment type="patch/comment" x="0" y="14" text="Control presets"/>
+   <obj type="ctrl/i" uuid="a3786816db6ea5bc6ac4193a5cccdb2c83b83496" name="i_10" x="168" y="56">
+      <params>
+         <int32 name="value" value="2"/>
+      </params>
+      <attribs/>
+   </obj>
+   <obj type="patch/preset" uuid="f7916cc01d45a5b1bbd444216031e0a02cc0b94c" name="preset_2" x="224" y="56">
+      <params/>
+      <attribs/>
+   </obj>
+   <obj type="mux/mux 2" uuid="e1c92bc92f4d191bfadf0efeae4503b458a4e440" name="mux_2" x="434" y="70">
+      <params/>
+      <attribs/>
+   </obj>
+   <obj type="midi/in/keyb note" uuid="ac0cd98e6c0373b7be73d25900342a62ebcf5f" name="keyb_2" x="0" y="84">
+      <params/>
+      <attribs>
+         <spinner attributeName="note" value="49"/>
+      </attribs>
+   </obj>
+   <comment type="patch/comment" x="98" y="84" text="Pad ."/>
+   <obj type="ctrl/dial p" uuid="cc5d2846c3d50e425f450c4b9851371b54f4d674" name="Gain_" x="952" y="84">
+      <params>
+         <frac32.u.map name="value" value="34.5"/>
+      </params>
+      <attribs/>
+   </obj>
+   <obj type="string/c" uuid="4aa90a90c435a742ddfa152d232883fc5b2f1b3" name="c_2" x="1022" y="84">
+      <params/>
+      <attribs>
+         <table attributeName="str" table="/hat.raw"/>
+      </attribs>
+   </obj>
+   <obj type="wave/play" uuid="2e6265136dbaaf4d885a669520546de2e3306819" name="play_3" x="1176" y="84">
+      <params/>
+      <attribs/>
+   </obj>
+   <obj type="gain/vca" uuid="a9f2dcd18043e2f47364e45cb8814f63c2a37c0d" name="vca_2" x="1288" y="84">
+      <params/>
+      <attribs/>
+   </obj>
+   <obj type="ctrl/i" uuid="a3786816db6ea5bc6ac4193a5cccdb2c83b83496" name="i_11" x="168" y="112">
+      <params>
+         <int32 name="value" value="3"/>
+      </params>
+      <attribs/>
+   </obj>
+   <obj type="patch/preset" uuid="f7916cc01d45a5b1bbd444216031e0a02cc0b94c" name="preset_3" x="224" y="112">
+      <params/>
+      <attribs/>
+   </obj>
+   <obj type="logic/flipflop toggle" uuid="195e489e5fc3d275944b0de56c7a91c8641ea22a" name="flipflop_1" x="266" y="112">
+      <params/>
+      <attribs/>
+   </obj>
+   <comment type="patch/comment" x="518" y="154" text="Kick"/>
+   <obj type="midi/in/keyb note" uuid="ac0cd98e6c0373b7be73d25900342a62ebcf5f" name="keyb_3" x="0" y="168">
+      <params/>
+      <attribs>
+         <spinner attributeName="note" value="50"/>
+      </attribs>
+   </obj>
+   <comment type="patch/comment" x="98" y="168" text="Pad 2"/>
+   <comment type="patch/comment" x="532" y="168" text="HH"/>
+   <obj type="ctrl/dial p" uuid="cc5d2846c3d50e425f450c4b9851371b54f4d674" name="Gain__" x="952" y="168">
+      <params>
+         <frac32.u.map name="value" value="34.5"/>
+      </params>
+      <attribs/>
+   </obj>
+   <obj type="string/c" uuid="4aa90a90c435a742ddfa152d232883fc5b2f1b3" name="c_3" x="1022" y="168">
+      <params/>
+      <attribs>
+         <table attributeName="str" table="/openHat.raw"/>
+      </attribs>
+   </obj>
+   <obj type="wave/play" uuid="2e6265136dbaaf4d885a669520546de2e3306819" name="play_4" x="1176" y="168">
+      <params/>
+      <attribs/>
+   </obj>
+   <obj type="gain/vca" uuid="a9f2dcd18043e2f47364e45cb8814f63c2a37c0d" name="vca_3" x="1288" y="168">
+      <params/>
+      <attribs/>
+   </obj>
+   <comment type="patch/comment" x="280" y="182" text="Embedded delay patch"/>
+   <comment type="patch/comment" x="532" y="182" text="OH"/>
+   <patcher type="patch/patcher" uuid="9b51b930-8bed-4b53-ba40-6aa7e68e72b9" name="feedbackDelay" x="280" y="196">
+      <params>
+         <frac32.u.map name="*c_2" value="0.0"/>
+      </params>
+      <attribs/>
+      <subpatch appVersion="1.0.12">
+         <comment type="patch/comment" x="0" y="56" text="delay with adjustable feedback"/>
+         <obj type="audio/inconfig l" uuid="7007d026acb7c3586f60a7f0898718d1ca7e0607" name="inconfig_1" x="0" y="84">
+            <params/>
+            <attribs>
+               <combo attributeName="gain" selection="12dB"/>
+               <combo attributeName="boost" selection="Mute"/>
+            </attribs>
+         </obj>
+         <obj type="audio/in left" uuid="d40e60b7641fe75af4d7c91b45bb038aacafc52e" name="in_1" x="112" y="84">
+            <params/>
+            <attribs/>
+         </obj>
+         <obj type="math/+" uuid="faedbea4612d9bd3644d6d3bf31946d848a70e19" name="+_1" x="210" y="84">
+            <params/>
+            <attribs/>
+         </obj>
+         <obj type="delay/write sdram" uuid="5ae03f8d7b815edcfc40585d8bbac2ed48460fba" name="write_1" x="294" y="84">
+            <params/>
+            <attribs>
+               <combo attributeName="size" selection="32768 (682ms)"/>
+            </attribs>
+         </obj>
+         <obj type="math/*c" uuid="7a66f52a9594e7e9eb31328ea725cb3641a80b55" name="*c_3" x="518" y="98">
+            <params>
+               <frac32.u.map name="amp" value="33.5"/>
+            </params>
+            <attribs/>
+         </obj>
+         <obj type="patch/outlet a" uuid="abd8c5fd3b0524a6630f65cad6dc27f6c58e2a3e" name="outlet_1" x="672" y="98">
+            <params/>
+            <attribs/>
+         </obj>
+         <comment type="patch/comment" x="378" y="182" text="Feedback: avoid 100%!"/>
+         <obj type="math/*c" uuid="7a66f52a9594e7e9eb31328ea725cb3641a80b55" name="feedbackLevel" x="378" y="196">
+            <params>
+               <frac32.u.map name="amp" onParent="true" value="0.0"/>
+            </params>
+            <attribs/>
+         </obj>
+         <obj type="patch/inlet a" uuid="b577fe41e0a6bc7b5502ce33cb8a3129e2e28ee5" name="inlet_1" x="84" y="224">
+            <params/>
+            <attribs/>
+         </obj>
+         <comment type="patch/comment" x="196" y="294" text="delay position: 0-64 covers 0-2.73s"/>
+         <obj type="delay/read interp" uuid="e3d8b8823ab551c588659520bf6cc25c630466c7" name="read_1" x="196" y="308">
+            <params>
+               <frac32.u.map name="time" value="19.5"/>
+            </params>
+            <attribs>
+               <objref attributeName="delayname" obj="write_1"/>
+            </attribs>
+         </obj>
+         <obj type="math/*c" uuid="7a66f52a9594e7e9eb31328ea725cb3641a80b55" name="*c_1" x="378" y="308">
+            <params>
+               <frac32.u.map name="amp" value="33.5"/>
+            </params>
+            <attribs/>
+         </obj>
+         <obj type="audio/out stereo" uuid="a1ca7a567f535acc21055669829101d3ee7f0189" name="out_1" x="504" y="308">
+            <params/>
+            <attribs/>
+         </obj>
+         <nets>
+            <net>
+               <source obj="read_1" outlet="out"/>
+               <dest obj="*c_1" inlet="in"/>
+               <dest obj="feedbackLevel" inlet="in"/>
+            </net>
+            <net>
+               <source obj="*c_1" outlet="out"/>
+               <dest obj="out_1" inlet="left"/>
+               <dest obj="out_1" inlet="right"/>
+            </net>
+            <net>
+               <source obj="+_1" outlet="out"/>
+               <dest obj="write_1" inlet="in"/>
+            </net>
+            <net>
+               <source obj="feedbackLevel" outlet="out"/>
+               <dest obj="+_1" inlet="in2"/>
+            </net>
+            <net>
+               <source obj="*c_3" outlet="out"/>
+               <dest obj="outlet_1" inlet="outlet"/>
+            </net>
+            <net>
+               <source obj="inlet_1" outlet="inlet"/>
+               <dest obj="+_1" inlet="in1"/>
+               <dest obj="*c_3" inlet="in"/>
+            </net>
+         </nets>
+         <settings>
+            <subpatchmode>no</subpatchmode>
+         </settings>
+         <notes><![CDATA[]]></notes>
+         <windowPos>
+            <x>0</x>
+            <y>23</y>
+            <width>1440</width>
+            <height>823</height>
+         </windowPos>
+      </subpatch>
+   </patcher>
+   <comment type="patch/comment" x="518" y="196" text="Snare"/>
+   <comment type="patch/comment" x="518" y="210" text="HH2"/>
+   <comment type="patch/comment" x="14" y="252" text="Set tempo of beat sequencer"/>
+   <obj type="ctrl/dial p" uuid="cc5d2846c3d50e425f450c4b9851371b54f4d674" name="Gain___" x="952" y="252">
+      <params>
+         <frac32.u.map name="value" value="20.5"/>
+      </params>
+      <attribs/>
+   </obj>
+   <obj type="string/c" uuid="4aa90a90c435a742ddfa152d232883fc5b2f1b3" name="c_4" x="1022" y="252">
+      <params/>
+      <attribs>
+         <table attributeName="str" table="/snare.raw"/>
+      </attribs>
+   </obj>
+   <obj type="wave/play" uuid="2e6265136dbaaf4d885a669520546de2e3306819" name="play_5" x="1176" y="252">
+      <params/>
+      <attribs/>
+   </obj>
+   <obj type="gain/vca" uuid="a9f2dcd18043e2f47364e45cb8814f63c2a37c0d" name="vca_4" x="1288" y="252">
+      <params/>
+      <attribs/>
+   </obj>
+   <obj type="midi/in/keyb note" uuid="ac0cd98e6c0373b7be73d25900342a62ebcf5f" name="keyb_4" x="0" y="266">
+      <params/>
+      <attribs>
+         <spinner attributeName="note" value="51"/>
+      </attribs>
+   </obj>
+   <comment type="patch/comment" x="98" y="266" text="Pad oct-"/>
+   <obj type="disp/ibar 32" uuid="8ec034ef194146b746e2c4c1ec30350f4157d51a" name="ibar_2" x="560" y="266">
+      <params/>
+      <attribs/>
+   </obj>
+   <obj type="audio/in stereo" uuid="99848ad6d90a8e615e83b2e619cfc806f28e7281" name="violin" x="182" y="308">
+      <params/>
+      <attribs/>
+   </obj>
+   <obj type="table/alloc 16b sdram" uuid="6d8eb0fd68f404cb5d14e7d4c8c146c8ccf09da1" name="violinTrack2" x="546" y="322">
+      <params/>
+      <attribs>
+         <combo attributeName="size" selection="262144"/>
+         <text attributeName="init">
+            <sText><![CDATA['test1';
+]]></sText>
+         </text>
+      </attribs>
+   </obj>
+   <obj type="table/alloc 16b sdram" uuid="6d8eb0fd68f404cb5d14e7d4c8c146c8ccf09da1" name="violinTrack1" x="672" y="322">
+      <params/>
+      <attribs>
+         <combo attributeName="size" selection="262144"/>
+         <text attributeName="init">
+            <sText><![CDATA['test1';
+]]></sText>
+         </text>
+      </attribs>
+   </obj>
+   <obj type="table/record" uuid="2f8909f3691be093f0b8cf6532d4acff2dcb1a9f" name="record_1" x="336" y="336">
+      <params/>
+      <attribs>
+         <objref attributeName="table" obj="violinTrack1"/>
+      </attribs>
+   </obj>
+   <obj type="ctrl/dial p" uuid="cc5d2846c3d50e425f450c4b9851371b54f4d674" name="Gain____" x="952" y="336">
+      <params>
+         <frac32.u.map name="value" value="34.5"/>
+      </params>
+      <attribs/>
+   </obj>
+   <obj type="string/c" uuid="4aa90a90c435a742ddfa152d232883fc5b2f1b3" name="c_5" x="1022" y="336">
+      <params/>
+      <attribs>
+         <table attributeName="str" table="/hat.raw"/>
+      </attribs>
+   </obj>
+   <obj type="wave/play" uuid="2e6265136dbaaf4d885a669520546de2e3306819" name="play_7" x="1176" y="336">
+      <params/>
+      <attribs/>
+   </obj>
+   <obj type="gain/vca" uuid="a9f2dcd18043e2f47364e45cb8814f63c2a37c0d" name="vca_5" x="1288" y="336">
+      <params/>
+      <attribs/>
+   </obj>
+   <comment type="patch/comment" x="1344" y="336" text="Drum Sequence out"/>
+   <comment type="patch/comment" x="0" y="350" text="Start Loop"/>
+   <obj type="audio/out stereo" uuid="a1ca7a567f535acc21055669829101d3ee7f0189" name="out_2" x="1344" y="350">
+      <params/>
+      <attribs/>
+   </obj>
+   <obj type="midi/in/keyb note" uuid="ac0cd98e6c0373b7be73d25900342a62ebcf5f" name="keyb_5" x="0" y="364">
+      <params/>
+      <attribs>
+         <spinner attributeName="note" value="52"/>
+      </attribs>
+   </obj>
+   <comment type="patch/comment" x="98" y="364" text="Pad 3"/>
+   <obj type="logic/or 2" uuid="3805d3c84d30032a44fbdbe42d9a2988a1790a3e" name="or_4" x="504" y="392">
+      <params/>
+      <attribs/>
+   </obj>
+   <obj type="table/play" uuid="53c499b6f6fbdcc25b48906393123ca10030ed45" name="play_2" x="616" y="392">
+      <params/>
+      <attribs>
+         <objref attributeName="table" obj="violinTrack1"/>
+      </attribs>
+   </obj>
+   <comment type="patch/comment" x="168" y="406" text="Turn on/off delay"/>
+   <obj type="midi/in/keyb note" uuid="ac0cd98e6c0373b7be73d25900342a62ebcf5f" name="keyb_10" x="168" y="420">
+      <params/>
+      <attribs>
+         <spinner attributeName="note" value="60"/>
+      </attribs>
+   </obj>
+   <obj type="sss/mix/mixsix" uuid="fca775f6-49ec-4d9f-9a4f-e657dad3a76e" name="mixsix_2" x="1162" y="420">
+      <params>
+         <frac32.u.map name="gain1" value="32.0"/>
+         <frac32.u.map name="gain2" value="32.0"/>
+         <frac32.u.map name="gain3" value="32.0"/>
+         <frac32.u.map name="gain4" value="0.0"/>
+         <frac32.u.map name="gain5" value="32.0"/>
+         <frac32.u.map name="gain6" value="32.0"/>
+      </params>
+      <attribs/>
+   </obj>
+   <comment type="patch/comment" x="0" y="448" text="Record In"/>
+   <comment type="patch/comment" x="56" y="448" text="Pad 4"/>
+   <obj type="table/record" uuid="2f8909f3691be093f0b8cf6532d4acff2dcb1a9f" name="record_2" x="336" y="448">
+      <params/>
+      <attribs>
+         <objref attributeName="table" obj="violinTrack2"/>
+      </attribs>
+   </obj>
+   <comment type="patch/comment" x="1316" y="448" text="Violin Out"/>
+   <comment type="patch/comment" x="0" y="462" text="Stop Loop"/>
+   <obj type="audio/out stereo" uuid="a1ca7a567f535acc21055669829101d3ee7f0189" name="out_1" x="1316" y="462">
+      <params/>
+      <attribs/>
+   </obj>
+   <obj type="midi/in/keyb note" uuid="ac0cd98e6c0373b7be73d25900342a62ebcf5f" name="keyb_6" x="0" y="476">
+      <params/>
+      <attribs>
+         <spinner attributeName="note" value="53"/>
+      </attribs>
+   </obj>
+   <comment type="patch/comment" x="98" y="476" text="Pad 4"/>
+   <obj type="logic/change" uuid="96e39ae624c3f3c952cec4a95e1986ee0104f718" name="change_1" x="504" y="476">
+      <params/>
+      <attribs/>
+   </obj>
+   <obj type="table/play" uuid="53c499b6f6fbdcc25b48906393123ca10030ed45" name="play_6" x="616" y="490">
+      <params/>
+      <attribs>
+         <objref attributeName="table" obj="violinTrack2"/>
+      </attribs>
+   </obj>
+   <comment type="patch/comment" x="168" y="504" text="Turn on/off granulation"/>
+   <obj type="midi/in/keyb note" uuid="ac0cd98e6c0373b7be73d25900342a62ebcf5f" name="keyb_12" x="168" y="518">
+      <params/>
+      <attribs>
+         <spinner attributeName="note" value="59"/>
+      </attribs>
+   </obj>
+   <obj type="math/gain" uuid="62b1c1a6337c7c8f6aec96408a432477b113cfa0" name="gain_1" x="854" y="532">
+      <params>
+         <frac32.u.map name="amp" value="4.0"/>
+      </params>
+      <attribs/>
+   </obj>
+   <obj type="mix/mix 1" uuid="e8f482af5b1ec4a2e9cf8ac7ce09e7c0e43cea08" name="mixer1" x="952" y="532">
+      <params>
+         <frac32.u.map name="gain1" value="61.99999952316284"/>
+      </params>
+      <attribs/>
+   </obj>
+   <obj type="table/record" uuid="2f8909f3691be093f0b8cf6532d4acff2dcb1a9f" name="overDubL" x="1036" y="532">
+      <params/>
+      <attribs>
+         <objref attributeName="table" obj="violinTrack1"/>
+      </attribs>
+   </obj>
+   <comment type="patch/comment" x="0" y="560" text="Rec violin track1"/>
+   <obj type="midi/in/keyb note" uuid="ac0cd98e6c0373b7be73d25900342a62ebcf5f" name="keyb_11" x="0" y="574">
+      <params/>
+      <attribs>
+         <spinner attributeName="note" value="54"/>
+      </attribs>
+   </obj>
+   <comment type="patch/comment" x="98" y="574" text="Pad oct+"/>
+   <obj type="logic/change" uuid="96e39ae624c3f3c952cec4a95e1986ee0104f718" name="change_2" x="518" y="574">
+      <params/>
+      <attribs/>
+   </obj>
+   <obj type="timer/timeri" uuid="11c19ad8fb3f9451d29984ba5dc7ebf8c30cdbfd" name="timer" x="280" y="588">
+      <params/>
+      <attribs/>
+   </obj>
+   <obj type="logic/inv" uuid="2bd44b865d3b63ff9b80862242bf5be779e3ad5" name="inv_2" x="658" y="588">
+      <params/>
+      <attribs/>
+   </obj>
+   <obj type="logic/and 2" uuid="c67031682f552aa0a80b23377495c51ea28a8c9c" name="and_2" x="714" y="588">
+      <params/>
+      <attribs/>
+   </obj>
+   <obj type="disp/i" uuid="5e35fd0c62d81e70017289250cf28edd26e19e4a" name="length" x="392" y="602">
+      <params/>
+      <attribs/>
+   </obj>
+   <obj type="disp/i" uuid="5e35fd0c62d81e70017289250cf28edd26e19e4a" name="ctr" x="448" y="602">
+      <params/>
+      <attribs/>
+   </obj>
+   <obj type="math/==" uuid="deaf0d36642c57876c4101e86f8a0b6a06021ab2" name="==_1" x="532" y="616">
+      <params/>
+      <attribs/>
+   </obj>
+   <obj type="math/gain" uuid="62b1c1a6337c7c8f6aec96408a432477b113cfa0" name="gain_2" x="854" y="644">
+      <params>
+         <frac32.u.map name="amp" value="4.0"/>
+      </params>
+      <attribs/>
+   </obj>
+   <obj type="mix/mix 1" uuid="e8f482af5b1ec4a2e9cf8ac7ce09e7c0e43cea08" name="mixer2" x="952" y="644">
+      <params>
+         <frac32.u.map name="gain1" value="62.0"/>
+      </params>
+      <attribs/>
+   </obj>
+   <obj type="table/record" uuid="2f8909f3691be093f0b8cf6532d4acff2dcb1a9f" name="overDubR" x="1036" y="644">
+      <params/>
+      <attribs>
+         <objref attributeName="table" obj="violinTrack2"/>
+      </attribs>
+   </obj>
+   <comment type="patch/comment" x="0" y="658" text="Rec violin track2"/>
+   <obj type="math/-1" uuid="5fd46bab471bb6509ae83de702dea72933683a98" name="decrement" x="280" y="658">
+      <params/>
+      <attribs/>
+   </obj>
+   <obj type="logic/or 2" uuid="3805d3c84d30032a44fbdbe42d9a2988a1790a3e" name="or_3" x="700" y="658">
+      <params/>
+      <attribs/>
+   </obj>
+   <obj type="logic/and 2" uuid="c67031682f552aa0a80b23377495c51ea28a8c9c" name="and_1" x="784" y="658">
+      <params/>
+      <attribs/>
+   </obj>
+   <obj type="midi/in/keyb note" uuid="ac0cd98e6c0373b7be73d25900342a62ebcf5f" name="keyb_7" x="0" y="672">
+      <params/>
+      <attribs>
+         <spinner attributeName="note" value="56"/>
+      </attribs>
+   </obj>
+   <comment type="patch/comment" x="98" y="672" text="Pad 9"/>
+   <obj type="mux/mux 2" uuid="16f90f81694766b0bc8187bfcba5a021e5701d81" name="reset ctr" x="392" y="672">
+      <params/>
+      <attribs/>
+   </obj>
+   <obj type="math/-" uuid="1643d55e6e7ce1c995a5e66db9f54fd969e6c9b7" name="-_1" x="476" y="686">
+      <params/>
+      <attribs/>
+   </obj>
+   <obj type="logic/inv" uuid="2bd44b865d3b63ff9b80862242bf5be779e3ad5" name="inv_1" x="168" y="700">
+      <params/>
+      <attribs/>
+   </obj>
+   <obj type="script/oneliner_ik" uuid="727d2e768712734d18eb320a9a4c9bb8792a1c2e" name="oneliner_ik_1" x="532" y="700">
+      <params>
+         <frac32.s.map name="c" value="0.0"/>
+      </params>
+      <attribs>
+         <table attributeName="line" table="outlet_out = inlet_in &lt;&lt; 13"/>
+      </attribs>
+   </obj>
+   <obj type="math/==" uuid="deaf0d36642c57876c4101e86f8a0b6a06021ab2" name="" x="280" y="714">
+      <params/>
+      <attribs/>
+   </obj>
+   <obj type="disp/dial p" uuid="44fd18b562e434b3230441681132dbeabb15cdc5" name="dial_1" x="770" y="728">
+      <params/>
+      <attribs/>
+   </obj>
+   <obj type="logic/or 2" uuid="3805d3c84d30032a44fbdbe42d9a2988a1790a3e" name="or_2" x="392" y="742">
+      <params/>
+      <attribs/>
+   </obj>
+   <obj type="const/i" uuid="e202f44b2df17ae0b3e663b98ea6b14c8ff00408" name="zero" x="280" y="770">
+      <params/>
+      <attribs>
+         <spinner attributeName="value" value="0"/>
+      </attribs>
+   </obj>
+   <nets>
+      <net>
+         <source obj="counter_2" outlet="o"/>
+         <dest obj="ibar_2" inlet="in"/>
+         <dest obj="-1_1" inlet="a"/>
+      </net>
+      <net>
+         <source obj="play_1" outlet="out"/>
+         <dest obj="vca_1" inlet="a"/>
+      </net>
+      <net>
+         <source obj="vca_1" outlet="o"/>
+         <dest obj="mixsix_1" inlet="in1"/>
+      </net>
+      <net>
+         <source obj="Gain" outlet="out"/>
+         <dest obj="vca_1" inlet="v"/>
+      </net>
+      <net>
+         <source obj="c_1" outlet="out"/>
+         <dest obj="play_1" inlet="filename"/>
+      </net>
+      <net>
+         <source obj="play_3" outlet="out"/>
+         <dest obj="vca_2" inlet="a"/>
+      </net>
+      <net>
+         <source obj="vca_2" outlet="o"/>
+         <dest obj="mixsix_1" inlet="in2"/>
+      </net>
+      <net>
+         <source obj="Gain_" outlet="out"/>
+         <dest obj="vca_2" inlet="v"/>
+      </net>
+      <net>
+         <source obj="c_2" outlet="out"/>
+         <dest obj="play_3" inlet="filename"/>
+      </net>
+      <net>
+         <source obj="sel_2" outlet="o1"/>
+         <dest obj="play_1" inlet="start"/>
+      </net>
+      <net>
+         <source obj="sel_2" outlet="o2"/>
+         <dest obj="play_3" inlet="start"/>
+      </net>
+      <net>
+         <source obj="play_4" outlet="out"/>
+         <dest obj="vca_3" inlet="a"/>
+      </net>
+      <net>
+         <source obj="Gain__" outlet="out"/>
+         <dest obj="vca_3" inlet="v"/>
+      </net>
+      <net>
+         <source obj="c_3" outlet="out"/>
+         <dest obj="play_4" inlet="filename"/>
+      </net>
+      <net>
+         <source obj="sel_2" outlet="o3"/>
+         <dest obj="play_4" inlet="start"/>
+      </net>
+      <net>
+         <source obj="play_5" outlet="out"/>
+         <dest obj="vca_4" inlet="a"/>
+      </net>
+      <net>
+         <source obj="Gain___" outlet="out"/>
+         <dest obj="vca_4" inlet="v"/>
+      </net>
+      <net>
+         <source obj="c_4" outlet="out"/>
+         <dest obj="play_5" inlet="filename"/>
+      </net>
+      <net>
+         <source obj="sel_2" outlet="o4"/>
+         <dest obj="play_5" inlet="start"/>
+      </net>
+      <net>
+         <source obj="i_9" outlet="out"/>
+         <dest obj="preset_1" inlet="preset"/>
+      </net>
+      <net>
+         <source obj="i_10" outlet="out"/>
+         <dest obj="preset_2" inlet="preset"/>
+      </net>
+      <net>
+         <source obj="i_11" outlet="out"/>
+         <dest obj="preset_3" inlet="preset"/>
+      </net>
+      <net>
+         <source obj="flipflop_1" outlet="o"/>
+         <dest obj="mux_2" inlet="s"/>
+      </net>
+      <net>
+         <source obj="mux_2" outlet="o"/>
+         <dest obj="counter_2" inlet="trig"/>
+      </net>
+      <net>
+         <source obj="vca_4" outlet="o"/>
+         <dest obj="mixsix_1" inlet="in4"/>
+      </net>
+      <net>
+         <source obj="vca_3" outlet="o"/>
+         <dest obj="mixsix_1" inlet="in3"/>
+      </net>
+      <net>
+         <source obj="mixsix_1" outlet="out"/>
+         <dest obj="out_2" inlet="left"/>
+         <dest obj="out_2" inlet="right"/>
+      </net>
+      <net>
+         <source obj="keyb_1" outlet="gate"/>
+         <dest obj="preset_1" inlet="trig"/>
+      </net>
+      <net>
+         <source obj="keyb_2" outlet="gate"/>
+         <dest obj="preset_2" inlet="trig"/>
+      </net>
+      <net>
+         <source obj="keyb_3" outlet="gate"/>
+         <dest obj="preset_3" inlet="trig"/>
+      </net>
+      <net>
+         <source obj="play_2" outlet="wave"/>
+         <dest obj="mixsix_2" inlet="in1"/>
+         <dest obj="gain_1" inlet="in"/>
+      </net>
+      <net>
+         <source obj="-1_1" outlet="result"/>
+         <dest obj="sel_2" inlet="in"/>
+      </net>
+      <net>
+         <source obj="keyb_6" outlet="gate"/>
+         <dest obj="flipflop_1" inlet="reset"/>
+      </net>
+      <net>
+         <source obj="keyb_5" outlet="gate"/>
+         <dest obj="flipflop_1" inlet="set"/>
+         <dest obj="counter_2" inlet="r"/>
+      </net>
+      <net>
+         <source obj="play_7" outlet="out"/>
+         <dest obj="vca_5" inlet="a"/>
+      </net>
+      <net>
+         <source obj="Gain____" outlet="out"/>
+         <dest obj="vca_5" inlet="v"/>
+      </net>
+      <net>
+         <source obj="c_5" outlet="out"/>
+         <dest obj="play_7" inlet="filename"/>
+      </net>
+      <net>
+         <source obj="sel_2" outlet="o5"/>
+         <dest obj="play_7" inlet="start"/>
+      </net>
+      <net>
+         <source obj="vca_5" outlet="o"/>
+         <dest obj="mixsix_1" inlet="in5"/>
+      </net>
+      <net>
+         <source obj="keyb_11" outlet="gate"/>
+         <dest obj="inv_1" inlet="i"/>
+         <dest obj="play_2" inlet="stop"/>
+         <dest obj="play_6" inlet="stop"/>
+         <dest obj="record_1" inlet="start"/>
+         <dest obj="record_2" inlet="start"/>
+         <dest obj="timer" inlet="start"/>
+         <dest obj="or_2" inlet="i2"/>
+      </net>
+      <net>
+         <source obj="timer" outlet="t"/>
+         <dest obj="length" inlet="in"/>
+         <dest obj="reset ctr" inlet="i2"/>
+         <dest obj="-_1" inlet="in1"/>
+      </net>
+      <net>
+         <source obj="zero" outlet="out"/>
+         <dest obj="" inlet="in2"/>
+         <dest obj="==_1" inlet="in2"/>
+      </net>
+      <net>
+         <source obj="" outlet="out"/>
+         <dest obj="or_2" inlet="i1"/>
+         <dest obj="or_4" inlet="i1"/>
+      </net>
+      <net>
+         <source obj="decrement" outlet="result"/>
+         <dest obj="reset ctr" inlet="i1"/>
+      </net>
+      <net>
+         <source obj="reset ctr" outlet="o"/>
+         <dest obj="decrement" inlet="a"/>
+         <dest obj="" inlet="in1"/>
+         <dest obj="ctr" inlet="in"/>
+         <dest obj="-_1" inlet="in2"/>
+      </net>
+      <net>
+         <source obj="or_2" outlet="o"/>
+         <dest obj="reset ctr" inlet="s"/>
+      </net>
+      <net>
+         <source obj="mixer2" outlet="out"/>
+         <dest obj="overDubR" inlet="wave"/>
+      </net>
+      <net>
+         <source obj="mixer1" outlet="out"/>
+         <dest obj="overDubL" inlet="wave"/>
+      </net>
+      <net>
+         <source obj="-_1" outlet="out"/>
+         <dest obj="==_1" inlet="in1"/>
+         <dest obj="oneliner_ik_1" inlet="in"/>
+      </net>
+      <net>
+         <source obj="oneliner_ik_1" outlet="out"/>
+         <dest obj="dial_1" inlet="in"/>
+         <dest obj="overDubL" inlet="pos"/>
+         <dest obj="overDubR" inlet="pos"/>
+      </net>
+      <net>
+         <source obj="gain_1" outlet="out"/>
+         <dest obj="mixer1" inlet="in1"/>
+      </net>
+      <net>
+         <source obj="gain_2" outlet="out"/>
+         <dest obj="mixer2" inlet="in1"/>
+      </net>
+      <net>
+         <source obj="==_1" outlet="out"/>
+         <dest obj="or_3" inlet="i2"/>
+      </net>
+      <net>
+         <source obj="keyb_7" outlet="gate"/>
+         <dest obj="change_2" inlet="in"/>
+         <dest obj="and_1" inlet="i1"/>
+         <dest obj="inv_2" inlet="i"/>
+      </net>
+      <net>
+         <source obj="or_3" outlet="o"/>
+         <dest obj="and_1" inlet="i2"/>
+      </net>
+      <net>
+         <source obj="and_1" outlet="o"/>
+         <dest obj="overDubL" inlet="start"/>
+         <dest obj="overDubR" inlet="start"/>
+      </net>
+      <net>
+         <source obj="change_2" outlet="trig"/>
+         <dest obj="or_3" inlet="i1"/>
+         <dest obj="and_2" inlet="i2"/>
+      </net>
+      <net>
+         <source obj="inv_2" outlet="o"/>
+         <dest obj="and_2" inlet="i1"/>
+      </net>
+      <net>
+         <source obj="and_2" outlet="o"/>
+         <dest obj="overDubL" inlet="stop"/>
+         <dest obj="overDubR" inlet="stop"/>
+      </net>
+      <net>
+         <source obj="inv_1" outlet="o"/>
+         <dest obj="timer" inlet="stop"/>
+         <dest obj="change_1" inlet="in"/>
+         <dest obj="record_1" inlet="stop"/>
+         <dest obj="record_2" inlet="stop"/>
+      </net>
+      <net>
+         <source obj="change_1" outlet="trig"/>
+         <dest obj="or_4" inlet="i2"/>
+      </net>
+      <net>
+         <source obj="play_6" outlet="wave"/>
+         <dest obj="mixsix_2" inlet="in2"/>
+         <dest obj="gain_2" inlet="in"/>
+      </net>
+      <net>
+         <source obj="violin" outlet="left"/>
+         <dest obj="record_1" inlet="wave"/>
+         <dest obj="record_2" inlet="wave"/>
+         <dest obj="mixsix_2" inlet="in3"/>
+         <dest obj="mixer1" inlet="bus_in"/>
+         <dest obj="mixer2" inlet="bus_in"/>
+         <dest obj="feedbackDelay" inlet="inlet_1"/>
+      </net>
+      <net>
+         <source obj="or_4" outlet="o"/>
+         <dest obj="play_2" inlet="start"/>
+         <dest obj="play_6" inlet="start"/>
+      </net>
+      <net>
+         <source obj="mixsix_2" outlet="out"/>
+         <dest obj="out_1" inlet="left"/>
+         <dest obj="out_1" inlet="right"/>
+      </net>
+      <net>
+         <source obj="tap_tempo_1" outlet="clock"/>
+         <dest obj="mux_2" inlet="i2"/>
+      </net>
+      <net>
+         <source obj="keyb_4" outlet="gate"/>
+         <dest obj="tap_tempo_1" inlet="tap"/>
+      </net>
+      <net>
+         <source obj="feedbackDelay" outlet="outlet_1"/>
+         <dest obj="mixsix_2" inlet="in4"/>
+      </net>
+   </nets>
+   <settings>
+      <subpatchmode>no</subpatchmode>
+      <MidiChannel>1</MidiChannel>
+      <NPresets>8</NPresets>
+      <NPresetEntries>32</NPresetEntries>
+      <NModulationSources>8</NModulationSources>
+      <NModulationTargetsPerSource>8</NModulationTargetsPerSource>
+      <Author></Author>
+   </settings>
+   <notes><![CDATA[]]></notes>
+   <windowPos>
+      <x>0</x>
+      <y>23</y>
+      <width>1440</width>
+      <height>822</height>
+   </windowPos>
+</patch-1.0>
